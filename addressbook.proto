@@ -3,7 +3,7 @@ package tutorial;
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/flat35hd99/play-pb/go/addressbook.pb.go";
+option go_package = "github.com/flat35hd99/play-pb/go/tutorialpb";
 
 message Person {
     string name = 1;
